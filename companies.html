@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Companies</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="container m-auto p-3 pt-5 p-md-5">
+			<div class="row">
+				<div class="col-12 col-sm-6">
+					<div class="card bg-default mb-3">
+						<div class="card-header text-white bg-secondary">
+							<h6>Total Companies</h6>
+						</div>
+						<div class = "loader">
+							<img src="img/loader.gif" alt="Total Companies">
+						</div>
+						<div id="numCompanies"></div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6">
+					<div class="card bg-default mb-3">
+						<div class="card-header text-white bg-secondary">
+							<h6>List of Companies</h6>
+						</div>
+						<div class = "loader">
+							<img src="img/loader.gif" alt="List of Companies">
+						</div>
+						<div id="listCompanies">
+							<ul></ul>
+						</div>
+					</div>
+				</div>
+				<div id="hideContainer" class="col-12 col-sm-12">
+					<div class="card card-default bg-default mb-3">
+						<div class="card-header text-white bg-secondary">
+							<h6>Company partners</h6>
+						</div>
+						<div class = "loader">
+							<img src="img/loader.gif" alt="List of Companies">
+						</div>
+						<div id="test"></div>
+						<canvas id="densityChart"></canvas>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6">
+					<div class="card bg-default mb-3">
+						<div class="card-header text-white bg-secondary">
+							<h6>Companies by Location</h6>
+						</div>
+						<div class = "loader">
+							<img src="img/loader.gif" alt="Companies by Location">
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6">
+					<div class="card bg-default mb-3">
+						<div class="card-header text-white bg-secondary">
+							<h6>News</h6>
+						</div>
+						<div class = "loader">
+							<img src="img/loader.gif" alt="News">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Section: JS -->
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/companies.js"></script>
+		<script type="text/javascript" src="js/chart.min.js"></script>
+		<script type="text/javascript" src="js/ie.js"></script>
+	</body>
+</html>

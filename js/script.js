@@ -18,6 +18,7 @@ $("#btnSubmit").on('click', function(event) {
                 if (data.message === "User created" || data.status === "OK") {
                     setTimeout(function() {
                         $("#infoResult").empty().append("Success!").removeClass('text-danger').addClass('text-success');
+                        window.location.replace("companies.html");
                     }, 500);
                 } else {
                     $("#infoResult").empty().append(data.message).addClass('text-danger');

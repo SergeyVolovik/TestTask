@@ -1,0 +1,40 @@
+.loader img{
+  width: 20rem;
+  height: 12rem;
+  margin: 0 auto;
+  display: block;
+}
+
+.styleList{
+    width: auto;
+    height: 8.5rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#listCompanies a{
+	color: #282827;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+#listCompanies li{
+	border: 2px solid #282827;
+	border-radius: 1%;
+	color: #000000;
+	cursor: pointer;
+}
+
+li.active{
+  background: #4de254;
+}
+
+#hideContainer{
+  display: none;
+}
+
+#densityChart{
+  width: 70% !important;
+  height: 70% !important;
+  margin: 0 auto;
+}
